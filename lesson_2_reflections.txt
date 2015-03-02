@@ -3,3 +3,18 @@ A .git file is created so that the repository can now be tracked.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is holding area for files with changes before they are committed. The working directory shows files that are not staged or committed and the repository shows all files that have been committed. This allows control of how a developer wants to commit changes to a repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+When you are finished making all logical changes to a file you should stage it so you know that it needs to be committed and is a signal that changes have been made to that file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When wanting to try an experimental change to a project or test a new feature. This would keep the original (master) project intact while you test the new feature or experimental change.
+
+How do the diagrams help you visualize the branch structure?
+It allows me to see what branch and commits I'm on and where I am in the repository structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It merges the code and commits of the two branches together. It is represented the way it is in the diagram because the merge becomes the master branch with all merged commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging makes it easier to merge but doesn't know the the details of conflicts, yet manual merges can be laborous but you can make sure to correct any conflicts by hand.
